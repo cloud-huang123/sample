@@ -6,6 +6,7 @@
 </head>
 <body>
 	@include('layouts._header')
+
 	<div class="container">
 		<div class="col-md-offset-1 col-md-10">
 			@include('shared._messages')
@@ -14,6 +15,6 @@
 		</div>
 	</div>
 
-	<script scr="/js/app.js"></script>
+	<script src="/js/app.js"></script>
 </body>
 </html>
